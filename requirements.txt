@@ -1,0 +1,5 @@
+tensorflow>=2.15
+# OpenCV 5 moved the Haar-cascade face detector out of the main package
+opencv-python>=4.8,<5
+numpy
+matplotlib   # only for jupiter_notebook.py
